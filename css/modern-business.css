@@ -37,3 +37,8 @@ body {
 input {
 text-align: center;
 }
+
+.pb-5, .py-5 {
+    padding-bottom: 1rem!important;
+    padding-top: 1rem!important;
+}
