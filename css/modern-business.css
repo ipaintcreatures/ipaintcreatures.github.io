@@ -3,6 +3,13 @@
  * Copyright 2013-2019 Start Bootstrap
  * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-logomodern-business-nav/blob/master/LICENSE)
  */
+	body
+	{
+		background-image:			url('images/overlay.png'),		url('images/bg.jpg');
+		background-repeat:			repeat,							no-repeat;
+		background-size:			auto,							100% 100%;
+	}
+ 
 body {
   padding-top: 56px;
 }
