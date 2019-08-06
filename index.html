@@ -224,27 +224,51 @@ Push your imagination and creativity to the limit. Create ways to show the innat
         <form name="sentMessage" id="contactForm" action="https://formspree.io/spartanboosts@gmail.com" method="POST" novalidate>
           <div class="control-group form-group">
             <div class="controls">
-              <label>Full Name:</label>
-              <input type="text" name="Name" class="form-control" id="name" required data-validation-required-message="Please enter your name.">
+              <label>Your Username:</label>
+              <input type="text" name="Username" class="form-control" required data-validation-required-message="Please enter your username.">
               <p class="help-block"></p>
             </div>
           </div>
           <div class="control-group form-group">
             <div class="controls">
-              <label>Phone Number:</label>
-              <input type="tel" class="form-control" id="phone" required data-validation-required-message="Please enter your phone number.">
+              <label>Submission Name:</label>
+              <input type="text" name="Submission Name" class="form-control" required data-validation-required-message="Please enter your submission name.">
             </div>
           </div>
           <div class="control-group form-group">
             <div class="controls">
-              <label>Email Address:</label>
-              <input type="email" class="form-control" id="email" required data-validation-required-message="Please enter your email address.">
+              <label>Best way to contact for immediate response: (Social media/Email/Twitch/Patreon)</label>
+              <input type="text" name="Best way to be reached" class="form-control" required data-validation-required-message="Please enter best way to reach you.">
             </div>
           </div>
           <div class="control-group form-group">
             <div class="controls">
-              <label>Message:</label>
-              <textarea rows="10" cols="100" class="form-control" id="message" required data-validation-required-message="Please enter your message" maxlength="999" style="resize:none"></textarea>
+              <label>Mediums used:</label>
+              <input type="text" name="Mediums used" class="form-control" required data-validation-required-message="Please enter the mediums you used.">
+            </div>
+          </div>
+          <div class="control-group form-group">
+            <div class="controls">
+              <label>Mediums used:</label>
+              <input type="text" name="Mediums used" class="form-control" required data-validation-required-message="Please enter the mediums you used.">
+            </div>
+          </div>
+          <div class="control-group form-group">
+            <div class="controls">
+              <label>Comments: (A little bit about your creature/which realm you selected)</label>
+              <textarea rows="10" cols="100" class="form-control" name="Comments" required data-validation-required-message="Please enter some comments about your creature" maxlength="999" style="resize:none"></textarea>
+            </div>
+          </div>
+          <div class="control-group form-group">
+            <div class="controls">
+              <label>Write a bit about your background in character design:</label>
+              <textarea rows="10" cols="100" class="form-control" name="Background in character design" required data-validation-required-message="Please enter some of your background in character design" maxlength="999" style="resize:none"></textarea>
+            </div>
+          </div>
+          <div class="control-group form-group">
+            <div class="controls">
+              <label>Write a bit about your story or experience creating this creature for Matsu</label>
+              <textarea rows="10" cols="100" class="form-control" name="Story or experience creating this creature for Matsu" required data-validation-required-message="Please enter your story or experience creating this creature" maxlength="999" style="resize:none"></textarea>
             </div>
           </div>
           <div id="success"></div>
