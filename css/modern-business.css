@@ -43,6 +43,8 @@ text-align: center;
 }
 
 
-.row-full{
-
+@media(max-width: 425px) {
+.banner-img {
+max-height: 400px;
+}
 }
