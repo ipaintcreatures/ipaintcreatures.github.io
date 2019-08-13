@@ -45,6 +45,6 @@ text-align: center;
 
 @media(max-width: 425px) {
 .banner-img {
-height: auto;
+height: 350px;
 }
 }
