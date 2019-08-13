@@ -123,9 +123,15 @@ blockquote, q {
   position: fixed;
   bottom: 70px;
   right: 10px;
+  z-index: 998;
 }
 
-
+#mybutton2 {
+  position: fixed;
+  bottom: 70px;
+  left: 10px;
+  z-index: 999;
+}
 
 
 
