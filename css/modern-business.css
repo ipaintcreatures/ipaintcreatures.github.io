@@ -45,6 +45,5 @@ text-align: center;
 
 .row-full{
       width: 100vw;
-      height: 0;
-      padding-bottom: 30%;
+      height: 100vw;
 }
