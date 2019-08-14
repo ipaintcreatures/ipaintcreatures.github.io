@@ -5,4 +5,4 @@ $(document).on('ready', function() {
         status: '.scroller-status',
         hideNav: '.pagination',
       });
-});
+}); 
