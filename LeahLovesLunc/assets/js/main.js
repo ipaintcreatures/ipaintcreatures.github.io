@@ -5,7 +5,6 @@
 */
 
 (function($) {
-
 	var	$window = $(window),
 		$body = $('body'),
 		$wrapper = $('#wrapper');
@@ -277,5 +276,4 @@
 				breakpoints.on('>xsmall', function() {
 					$main[0]._poptrox.windowMargin = 50;
 				});
-
 })(jQuery);
